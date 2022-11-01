@@ -44,7 +44,8 @@ li {
 .link:hover {
   color: var(--main-blue);
   cursor: pointer;
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link {
   color: var(--main-black);
@@ -60,7 +61,8 @@ li {
 .link-header:hover {
   color: var(--main-blue);
   cursor: pointer;
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-header:hover svg {
   stroke: var(--main-blue);
@@ -105,7 +107,8 @@ li {
   background-color: var(--main-blue);
   color: var(--main-white);
   cursor: pointer;
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button {
   color: var(--main-black);
@@ -129,7 +132,8 @@ li {
   color: var(--main-white);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: all 0.2s;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .h2-class {
   font-style: normal;
@@ -389,7 +393,8 @@ li {
 }
 .icon-svg:hover {
   fill: var(--main-blue);
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
 }
 .lorem-icon {
@@ -430,7 +435,8 @@ li {
   fill: var(--second-white);
   background: var(--main-blue);
   cursor: pointer;
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .section-padding {
   padding-block: 94px;
@@ -453,7 +459,8 @@ li {
 }
 .customers-logo:hover {
   fill: var(--main-blue);
-  transition: all 0.28s;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   outline-color: var(--main-blue);
   cursor: pointer;
 }
