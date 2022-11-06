@@ -416,7 +416,11 @@
             <label>
               <input type="email" placeholder="E-mail" class="footer-newsletter-placeholder">
             </label>
-            <button type="submit" class="button-footer-sub">Zapisz sie</button>
+            <button type="submit" class="button-footer-sub">Zapisz sie
+              <svg width="24px" height="24px" class="footer-button-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>
@@ -428,6 +432,14 @@
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
+        <form class="modal-style">
+          <p class="modal-title">Zostaw swoje dane w formularzu poniżej</p>
+          <label class="label-content"> Imię 
+            <span class="input-content">
+              <input type="text" name="name" autofocus>
+            </span>
+          </label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
